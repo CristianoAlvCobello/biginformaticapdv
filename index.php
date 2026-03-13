@@ -563,7 +563,7 @@
       
       <!-- Imagem -->
       <div class="flex justify-center lg:justify-end" data-aos="fade-down">
-        <img  src="images/usuarios.webp" class="max-w-full h-auto drop-shadow-xl">
+        <img  src="images/usuarios.png" class="max-w-full h-auto drop-shadow-xl">
       </div>
     </div>
   </div>
@@ -575,7 +575,7 @@
     <div class="grid lg:grid-cols-2 gap-16 items-center">
       <!-- Imagem -->
       <div class="flex justify-center lg:justify-end order-2 lg:order-1" data-aos="fade-down">
-        <img  src="images/mesas-comandas.webp" class="max-w-full h-auto">
+        <img  src="images/mesas-comandas.png" class="max-w-full h-auto">
       </div>
 
       <!-- Texto -->
