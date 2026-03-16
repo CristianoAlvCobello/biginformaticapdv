@@ -30,7 +30,7 @@
         <div class="flex flex-wrap justify-center lg:justify-start gap-4 mt-8">
           <a href="https://play.google.com/store/apps/details?id=br.com.desenvolvedorpdv.pdvmais" target="_blank"><img src="images/img-down-android.svg" class="h-12 hover:scale-105 transition"></a>
           <a href="https://apps.apple.com/br/app/pdv/id6443721199" target="_blank"><img src="images/img-down-ios.svg" class="h-12 hover:scale-105 transition"></a>
-          <a href="https://'navi'vendas.com.br/download/windows/pdvmais"><img src="images/img-down-windows.svg" class="h-12 hover:scale-105 transition hidden lg:block"></a>
+          <a href="https://navivendas.com.br/download/windows/pdvmais"><img src="images/img-down-windows.svg" class="h-12 hover:scale-105 transition hidden lg:block"></a>
         </div>
       </div>
 
