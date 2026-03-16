@@ -29,7 +29,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="overflow-x-hidden">
-    <header class="sticky top-0 z-50 bg-white shadow-xl transition-all duration-300">
+    <header class="sticky top-0 z-50 bg-white shadow-xl transition-all duration-300 px-5">
         <nav>
             <div class="container mx-auto">
                 <div class="flex justify-between items-center py-4">
