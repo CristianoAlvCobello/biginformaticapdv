@@ -409,7 +409,7 @@
       ❮
       </button>
 
-      <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-20 text-center lg:text-left">
+      <div id="machineBlock" class="flex flex-col lg:flex-row items-center gap-10 lg:gap-20 text-center lg:text-left">
 
         <!-- imagem -->
         <img id="machineImage"
