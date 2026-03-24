@@ -8,8 +8,8 @@
     <meta name="keywords" content="sistema de gestão,big informática,automação comercial,suporte,pdv,gestão comercial,revenda software,sistema de vendas,cupom fiscal,nota fiscal eletronica,nfe,nfce,sat,restaurante,sistema para restaurante,controle de estoque,speed, otimizar gestao empresa, comercio em geral, sistema comercial, pet shop, varejista, mercado e açougue">
     <meta itemprop="name" content="Big Informática Pdv">
     <meta property="og:title" content="Big Informática Pdv"> 
-    <meta property="og:url" content="https://biginformaticapdv.com.br/<?php echo $arquivo?>">
-    <meta property="og:image" content="https://biginformaticapdv.com.br/images/logo-inteira.jpg">
+    <meta property="og:url" content="https://biginformaticapdv.com.br">
+    <meta property="og:image" content="https://biginformaticapdv.com.br/images/logo-inteira.png">
     <meta property="og:type" content="article">
     <meta property="og:description" content="Especializada em automação comercial e assistência técnica, a Big Informática fornece ao mercado soluções inovadoras em software para pequenas, médias e grandes empresas, além de um excelente suporte.">
     <meta property="og:site_name" content="Big Informática Sr">
