@@ -9,7 +9,7 @@
     <meta itemprop="name" content="Big Informática Pdv">
     <meta property="og:title" content="Big Informática Pdv"> 
     <meta property="og:url" content="https://biginformaticapdv.com.br">
-    <meta property="og:image" content="https://biginformaticapdv.com.br/images/logo-inteira.png">
+    <meta property="og:image" content="https://biginformaticapdv.com.br/assets/favicon-32x32.png">
     <meta property="og:type" content="article">
     <meta property="og:description" content="Especializada em automação comercial e assistência técnica, a Big Informática fornece ao mercado soluções inovadoras em software para pequenas, médias e grandes empresas, além de um excelente suporte.">
     <meta property="og:site_name" content="Big Informática Sr">
