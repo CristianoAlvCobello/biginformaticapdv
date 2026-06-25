@@ -1,8 +1,14 @@
+<?php
+    if (!isset($base)) {
+        $base = '/biginformaticapdv';
+    }
+?>
     <footer class="pt-12 pb-6">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
                 <div>
-                    <img class="w-80" src="images/logo-inteira.png" alt="Big Informática Logo">
+                    <img class="w-80 h-auto max-w-full logo-color" src="<?php echo $base; ?>/images/logo_biginformatica-color-1.svg" alt="Big Informática Logo">
+                    <img class="w-80 h-auto max-w-full logo-white" src="<?php echo $base; ?>/images/logo_biginformatica-white.svg" alt="Big Informática Logo White">
                     <div class="flex gap-4 mt-4">
                         <a href="https://www.facebook.com/people/Big-Inform%C3%A1tica/61550819117039/?mibextid=ZbWKwL" target="_blank" aria-label="Facebook" class="text-blue-700 hover:text-blue-900 text-3xl transition">
                             <i class="bi bi-facebook"></i>
@@ -44,6 +50,8 @@
         </div>
     </footer>
 </body>
-<script src="js/main.js"></script>
+<script src="<?php echo $base; ?>/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script><script>AOS.init();</script>
+<?php echo ($arquivo == "index.php") ? "<script src=\"{$base}/js/carrosel.js\"></script>" : ""; ?>
+<?php echo ($arquivo == "tutoriais.php") ? "<script src=\"{$base}/js/tutoriais.js\"></script>" : ""; ?>
 </html>

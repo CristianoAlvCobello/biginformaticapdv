@@ -43,7 +43,7 @@
 </section>
 
 <!-- Grid de soluções -->
-<section class="py-20 scroll-mt-24" id="recursos">
+<main class="py-20 scroll-mt-24" id="recursos">
   <div class="max-w-7xl mx-auto px-6">
     <!-- Título -->
     <h2 class="text-center text-3xl md:text-4xl font-bold text-gray-900 mb-16">
@@ -165,7 +165,7 @@
       </div>
     </div>
   </div>
-</section>
+</main>
 
 <!-- Catálogo Online -->
 <section class="bg-gray-100 py-24 scroll-mt-24" id="catalogo"> 
@@ -405,7 +405,7 @@
 
       <!-- seta esquerda -->
       <button id="prev"
-      class="absolute left-2 md:left-0 text-3xl text-gray-400 hover:text-black transition cursor-pointer">
+      class="absolute left-2 md:left-0 text-3xl text-gray-400 hover:text-red-600 transition cursor-pointer">
       ❮
       </button>
 
@@ -423,7 +423,7 @@
 
       <!-- seta direita -->
       <button id="next"
-      class="absolute right-2 md:right-0 text-3xl text-gray-400 hover:text-black transition cursor-pointer">
+      class="absolute right-2 md:right-0 text-3xl text-gray-400 hover:text-red-600 transition cursor-pointer">
       ❯
       </button>
 
