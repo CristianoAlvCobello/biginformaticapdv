@@ -64,9 +64,9 @@
                             <a href="<?php echo $base; ?>/index.php#maquininhas" class="font-semibold nav-link">MAQUININHAS</a>
                             <a href="<?php echo $base; ?>/tutoriais.php" class="font-semibold nav-link">TUTORIAIS</a>
                         </div>
-                        <button id="theme-toggle" data-theme-toggle class="mx-5 inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-3 py-2 text-gray-800 shadow-lg transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800" aria-label="Alternar modo escuro">
+                        <!-- <button id="theme-toggle" data-theme-toggle class="mx-5 inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-3 py-2 text-gray-800 shadow-lg transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800" aria-label="Alternar modo escuro">
                             <i id="theme-icon" class="bi bi-moon-fill text-xl"></i>
-                        </button>
+                        </button> -->
                     </div>
 
                     <!-- Botão mobile -->
