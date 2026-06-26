@@ -1,7 +1,15 @@
 <?php
     $arquivo = basename($_SERVER['PHP_SELF']);
     if (!isset($base)) {
-        $base = '/biginformaticapdv';
+        $host = $_SERVER['HTTP_HOST'];
+        
+        // Se for produção, usar raiz do domínio
+        if (strpos($host, 'biginformaticapdv.com.br') !== false) {
+            $base = '';
+        } else {
+            // Se for local, usar /biginformaticapdv
+            $base = '/biginformaticapdv';
+        }
     }
 ?>
 
