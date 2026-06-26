@@ -7,7 +7,7 @@ const themeIconMobile = document.getElementById("theme-icon-mobile")
 
 const storedTheme = localStorage.getItem("site-theme")
 const systemPrefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
-const initialTheme = storedTheme ? storedTheme : (systemPrefersDark ? "dark" : "light")
+const initialTheme = "dark" //storedTheme ? storedTheme : (systemPrefersDark ? "dark" : "light")
 
 const setTheme = (theme) => {
     const isDark = theme === "dark"

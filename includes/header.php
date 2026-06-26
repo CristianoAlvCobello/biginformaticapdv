@@ -78,15 +78,15 @@
                 <!-- Menu Mobile -->
                 <div id="mobile-menu" class="md:hidden max-h-0 overflow-hidden opacity-0 transform scale-y-95 transition-all duration-300 ease-in-out bg-white dark:bg-slate-950">
                     <div class="flex flex-col space-y-2 px-4 py-2 text-xl">
-                        <a href="<?php echo $base; ?>/index.php#inicio" class="font-semibold nav-link text-red-800">INÍCIO</a>
+                        <a href="<?php echo $base; ?>/index.php#inicio" class="font-semibold nav-link">INÍCIO</a>
                         <a href="<?php echo $base; ?>/index.php#recursos" class="font-semibold nav-link">RECURSOS</a>
                         <a href="<?php echo $base; ?>/index.php#catalogo" class="font-semibold nav-link">CATALOGO ONLINE</a>
                         <a href="<?php echo $base; ?>/index.php#maquininhas" class="font-semibold nav-link">MAQUININHAS</a>
                         <a href="<?php echo $base; ?>/tutoriais.php" class="font-semibold nav-link">TUTORIAIS</a>
-                        <button id="theme-toggle-mobile" data-theme-toggle class="mt-4 inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-3 py-2 text-gray-800 shadow-sm transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800" aria-label="Alternar modo escuro">
+                        <!-- <button id="theme-toggle-mobile" data-theme-toggle class="mt-4 inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-3 py-2 text-gray-800 shadow-sm transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800" aria-label="Alternar modo escuro">
                             <i id="theme-icon-mobile" class="bi bi-moon-fill text-xl"></i>
-                            <span class="ml-2 text-base">Modo escuro</span>
-                        </button>
+                            <span class="ml-2 text-base">Alterar Tema</span>
+                        </button> -->
                     </div>
                 </div>
             </div>
