@@ -1349,7 +1349,8 @@
   }
 }
 
-:root {
+:root,
+html:not(.dark) {
   color-scheme: light;
 }
 html.dark {
@@ -1402,6 +1403,13 @@ html.dark .text-red-800 {
 }
 html.dark .text-gray-800 {
   color: #f8fafc !important;
+}
+
+html:not(.dark) header.sticky {
+  background-color: #fff !important;
+}
+html:not(.dark) #mobile-menu.bg-white {
+  background-color: #fff !important;
 }
 
 /* Logo swap helpers */

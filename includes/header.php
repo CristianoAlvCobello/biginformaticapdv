@@ -15,6 +15,17 @@
 
 <!DOCTYPE html>
 <html lang="pt-br" class="scroll-smooth">
+<script>
+(function () {
+    var stored = localStorage.getItem("site-theme");
+    var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var theme = stored ? stored : (prefersDark ? "dark" : "light");
+    var isDark = theme === "dark";
+    var root = document.documentElement;
+    root.classList.toggle("dark", isDark);
+    root.style.colorScheme = isDark ? "dark" : "light";
+})();
+</script>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,6 +53,9 @@
     <link rel="stylesheet" href="<?php echo $base; ?>/styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style type="text/tailwindcss">
+        @custom-variant dark (&:where(.dark, .dark *));
+    </style>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body class="overflow-x-hidden bg-white text-gray-900 transition-colors duration-300 dark:bg-slate-950 dark:text-slate-100">
@@ -64,9 +78,9 @@
                             <a href="<?php echo $base; ?>/index.php#maquininhas" class="font-semibold nav-link">MAQUININHAS</a>
                             <a href="<?php echo $base; ?>/tutoriais.php" class="font-semibold nav-link">TUTORIAIS</a>
                         </div>
-                        <!-- <button id="theme-toggle" data-theme-toggle class="mx-5 inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-3 py-2 text-gray-800 shadow-lg transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800" aria-label="Alternar modo escuro">
+                        <button id="theme-toggle" data-theme-toggle class="mx-5 inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-3 py-2 text-gray-800 shadow-lg transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800" aria-label="Alternar modo escuro">
                             <i id="theme-icon" class="bi bi-moon-fill text-xl"></i>
-                        </button> -->
+                        </button>
                     </div>
 
                     <!-- Botão mobile -->
@@ -83,10 +97,10 @@
                         <a href="<?php echo $base; ?>/index.php#catalogo" class="font-semibold nav-link">CATALOGO ONLINE</a>
                         <a href="<?php echo $base; ?>/index.php#maquininhas" class="font-semibold nav-link">MAQUININHAS</a>
                         <a href="<?php echo $base; ?>/tutoriais.php" class="font-semibold nav-link">TUTORIAIS</a>
-                        <!-- <button id="theme-toggle-mobile" data-theme-toggle class="mt-4 inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-3 py-2 text-gray-800 shadow-sm transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800" aria-label="Alternar modo escuro">
+                        <button id="theme-toggle-mobile" data-theme-toggle class="mt-4 inline-flex items-center justify-center rounded-full border border-gray-200 bg-white px-3 py-2 text-gray-800 shadow-sm transition hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800" aria-label="Alternar modo escuro">
                             <i id="theme-icon-mobile" class="bi bi-moon-fill text-xl"></i>
                             <span class="ml-2 text-base">Alterar Tema</span>
-                        </button> -->
+                        </button>
                     </div>
                 </div>
             </div>

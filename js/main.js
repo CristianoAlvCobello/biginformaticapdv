@@ -7,11 +7,13 @@ const themeIconMobile = document.getElementById("theme-icon-mobile")
 
 const storedTheme = localStorage.getItem("site-theme")
 const systemPrefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
-const initialTheme = "dark" //storedTheme ? storedTheme : (systemPrefersDark ? "dark" : "light")
+const initialTheme = storedTheme ? storedTheme : (systemPrefersDark ? "dark" : "light")
 
 const setTheme = (theme) => {
     const isDark = theme === "dark"
-    document.documentElement.classList.toggle("dark", isDark)
+    const root = document.documentElement
+    root.classList.toggle("dark", isDark)
+    root.style.colorScheme = isDark ? "dark" : "light"
 
     const addIcon = isDark ? "bi-sun-fill" : "bi-moon-fill"
     const removeIcon = isDark ? "bi-moon-fill" : "bi-sun-fill"
