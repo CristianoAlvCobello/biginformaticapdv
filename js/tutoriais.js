@@ -10,11 +10,11 @@
                     },
                     {
                         title: "Cadastro de produtos multissabor",
-                        url: "desenvolvimento.php"
+                        url: "tutoriais/caixa/cadastro-de-produtos-multissabor.php"
                     },
                     {
                         title: "Excluir venda",
-                        url: "desenvolvimento.php"    
+                        url: "tutoriais/caixa/excluir-venda.php"    
                     },
                     {
                         title: "Solicitar CPF na nota fiscal",

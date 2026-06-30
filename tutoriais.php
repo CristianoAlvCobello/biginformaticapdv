@@ -1,6 +1,5 @@
 <?php   
     $arquivo = basename(__FILE__);
-    $descricao = "Big Informática em São Roque/SP: soluções completas em tecnologia da informação, assistência técnica para computadores, sistemas de gestão, backup profissional e suporte técnico especializado.";
     include 'includes/header.php';
 ?>
 <div class="bg-gray-100 dark:bg-slate-950">

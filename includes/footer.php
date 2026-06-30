@@ -49,6 +49,10 @@
             </div>
         </div>
     </footer>
+
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Voltar ao topo" title="Voltar ao topo">
+        <i class="bi bi-arrow-up"></i>
+    </button>
 </body>
 <script src="<?php echo $base; ?>/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script><script>AOS.init();</script>

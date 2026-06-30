@@ -40,7 +40,7 @@
     <meta property="og:description" content="Especializada em automação comercial e assistência técnica, a Big Informática fornece ao mercado soluções inovadoras em software para pequenas, médias e grandes empresas, além de um excelente suporte.">
     <meta property="og:site_name" content="Big Informática Sr">
     <meta property="og:locale" content="pt_BR">
-    <meta name="description" content="<?php echo $descricao?>">
+    <meta name="description" content="Big Informática em São Roque/SP: soluções completas em tecnologia da informação, assistência técnica para computadores, sistemas de gestão, backup profissional e suporte técnico especializado.">
     <!--End Seo-->
     <!--FavIcon-->
     <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $base; ?>/assets/apple-touch-icon.png">

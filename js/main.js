@@ -51,3 +51,46 @@ if (menuBtn && menu && menuIcon) {
         }
     })
 }
+
+const initBackToTop = () => {
+    const backToTopBtn = document.getElementById("back-to-top")
+    if (!backToTopBtn) return
+
+    const getScrollTop = () =>
+        window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+
+    const toggleBackToTop = () => {
+        const shouldShow = getScrollTop() > 200
+        const isVisible = backToTopBtn.classList.contains("is-visible")
+        const isHiding = backToTopBtn.classList.contains("is-hiding")
+
+        if (shouldShow && !isVisible) {
+            backToTopBtn.classList.remove("is-hiding")
+            backToTopBtn.classList.add("is-visible")
+        } else if (!shouldShow && isVisible) {
+            backToTopBtn.classList.remove("is-visible")
+            backToTopBtn.classList.add("is-hiding")
+        }
+    }
+
+    backToTopBtn.addEventListener("animationend", (event) => {
+        if (event.animationName === "back-to-top-out") {
+            backToTopBtn.classList.remove("is-hiding")
+        }
+    })
+
+    backToTopBtn.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" })
+        document.documentElement.scrollTo({ top: 0, behavior: "smooth" })
+        document.body.scrollTo({ top: 0, behavior: "smooth" })
+    })
+
+    window.addEventListener("scroll", toggleBackToTop, { passive: true })
+    toggleBackToTop()
+}
+
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initBackToTop)
+} else {
+    initBackToTop()
+}

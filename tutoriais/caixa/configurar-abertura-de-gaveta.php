@@ -42,7 +42,7 @@
         <!-- Imagem passo 1 -->
         <div class="rounded-xl overflow-hidden border-2 border-gray-600 shadow-lg dark:border-slate-700 dark:shadow-black/40 mb-8">
             <img
-                src="../../images/1.png"
+                src="images/1.png"
                 alt="Tela de configurações"
                 class="w-full object-cover"
             >
@@ -64,7 +64,7 @@
        <!-- Imagem passo 2 -->
         <div class="rounded-xl overflow-hidden border-2 border-gray-600 shadow-lg dark:border-slate-700 dark:shadow-black/40 mb-8">
             <img
-                src="../../images/2.png"
+                src="images/2.png"
                 alt="Tela de configurações"
                 class="w-full object-cover"
             >
@@ -100,7 +100,7 @@
         <!-- Imagem passo 3 -->
         <div class="rounded-xl overflow-hidden border-2 border-gray-600 shadow-lg dark:border-slate-700 dark:shadow-black/40 mb-8">
             <img
-                src="../../images/3.png"
+                src="images/3.png"
                 alt="Tela de configurações"
                 class="w-full object-cover"
             >
@@ -120,7 +120,7 @@
         <!-- Imagem passo 4 -->
         <div class="rounded-xl overflow-hidden border-2 border-gray-600 shadow-lg dark:border-slate-700 dark:shadow-black/40 mb-8">
             <img
-                src="../../images/4.png"
+                src="images/4.png"
                 alt="Tela de configurações"
                 class="w-full object-cover"
             >
